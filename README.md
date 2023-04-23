@@ -4,7 +4,7 @@
 
 - A script meant to be executed upon session login time (via `/etc/profile.d/`, `~/.bashrc`, etc.)
 - Works on Linux, Windows, and MacOS (You just need to figure out how to execute it when you want it executed)
-- Prints the current status of git repositories contained in the text file you provide it as an arugment.
+- Prints the current status of git repositories contained in the text file you provide it as an argument.
 
 ## Requirements
 
@@ -16,8 +16,8 @@ Pip Packages
 - `Colorama` 
 
 ### Considerations:
-- You can install the packages via pip on your system interpreter (not reccomended)
-- You can prepare a virutual envionment and use its python interpreter as the path in the shebang of the script
+- You can install the packages via pip on your system interpreter (not recommended)
+- You can prepare a virtual environment and use its python interpreter as the path in the shebang of the script
 
 Shebang for system interpreter
 ```python
